@@ -1,0 +1,28 @@
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    min-width: 2rem;
+    margin: .1rem;
+    font-weight: 700;
+    background-color: #d3d6da;
+    border: none;
+    border-radius: .2rem;
+}
+
+.key:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 1.5rem; 
+    line-height: 2rem;
+    margin: .75rem;
+}
